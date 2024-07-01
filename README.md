@@ -2,17 +2,22 @@
 This is my first solidity program which consists of a contract and 2 functions to  int and brun tokens.
 # DEATILS 
 In this my "mewMyToken" solidity contract implements a straightforward token system on the ETHEREUM BLOCKCHAIN . It defines essentail token attributes and provides basic functionalities to manage token supply and balances. Here are its main components and functionalities :
+
 1 *TOKEN ATTRIBUTE *
 - 'Token Name '=AMISHA
 -  'Token Abbreviation'=SID
 -  'total suppy'= nwTotalValue to have tracks the total number of tokens in circulation.
+
 2 * BALANCE *
  The contract uses a mapping 'nwblaances' to keep track of each address's token balance,ensuring efficient storage and retrieval.
+
 3 *MINTING TOKEN *
   The'nwmint'function allows the creation of new tokens. It taken an address
 and a value as parameters , increase the total supply ,and credits the specified address with the new tokens.
+
 4 *BURNING TOKENS *
    The 'nwbrun'function facilitates the destruction of tokens. It takes an address and a value as parameters and if the address has enough tokens, it decreases the total supply and the address's balance according.
+
 5 *ACCESS AND MODIFICATION *
    Both the minting and burning functions are public , allowing any ures to interact with them.
 # EXECUTION 
